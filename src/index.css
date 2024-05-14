@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dogInfo{
+  height: 380px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  background-color: rgba(207, 99, 4, 0.412);
+  border-radius: 30px;
+  margin: 10px;
+}
+.dogInfo:hover{
+  background-color: rgba(207, 99, 4, 0.589);
+}
+
+.dogInfo img {
+  height: 100px;
+}
+
+.dogInfo p {
+  padding-left: 18px;
+}
+
+.titulo {
+  border: rgb(129, 129, 129) solid 3px;
+  background-color: rgba(184, 184, 184, 0.697);
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.headliner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
